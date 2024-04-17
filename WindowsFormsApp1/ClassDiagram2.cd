@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="WindowsFormsApp1.GaussZeidelMethod">
+    <Position X="6.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAIgAAQAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>GaussZeidelMethod.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Interval" />
+      <Property Name="GoldenRatioMethod" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp1.GoldenRatioMethod">
+    <Position X="6.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GoldenRatioMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApp1.Logger">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="WindowsFormsApp1.Logger.MessageWritedDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Logger.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEgAgAKAAAAAQAAAAAAAEAAgAIAAAAQIAQAgEAAAA=</HashCode>
+      <FileName>Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsFormsApp1.Program">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp1.Form1">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="radioButton1" Hidden="true" />
+      <Field Name="radioButton2" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAKACAIACAAABQAAACgAAACAEA4AAAIEHSgAEAAQAI=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Form11" />
+      <Property Name="Point2D" />
+      <Property Name="Form12" />
+      <Property Name="GaussZeidelMethod" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="WindowsFormsApp1.Interval">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEAAAA=</HashCode>
+      <FileName>Interval.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WindowsFormsApp1.Point2D">
+    <Position X="6.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Point2D.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
